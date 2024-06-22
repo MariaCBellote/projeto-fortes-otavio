@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de projetos</title>
+    <link rel="stylesheet" href="projs.css">
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <div class="profile">
+            <div class="profile-pic"></div>
+            <p>Bem-vindo(a)<br><strong>Juliana</strong><br>(área do administrador)</p>
+        </div>
+        <nav class="nav">
+            <a href="/notificacao/index.html" class="nav-item">
+                <!-- Notificação -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path d="M12 24c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-2.8-1.9-5.2-4.5-5.9V6c0-.8-.7-1.5-1.5-1.5S11 5.2 11 6v1.1C8.4 7.8 6.5 10.2 6.5 13v5l-1.5 1.5v.5h15v-.5L18 18zm-2 .5h-8v-5c0-2.5 1.8-4.5 4-4.5s4 2 4 4.5v5z"/>
+                </svg>
+            </a>
+            <a href="/email/index.html" class="nav-item">
+                <!-- Email -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </a>
+            <a href="/chat/index.html" class="nav-item">
+                <!-- Chatbox -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h4v4l8-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+                </svg>
+            </a>
+            <a href="/adm/index.html" class="nav-item">
+                <!-- Planilha -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path d="M3 3h18v2H3V3zm0 16h18v2H3v-2zm0-12h18v2H3v-2zm0 8h18v2H3v-2zm0-4h18v2H3v-2z"/>
+                </svg>
+            </a>
+            <a href="/docs/index.html" class="nav-item">
+                <!-- Documento -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path d="M20 2H8c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6l-6-4zm-1 18H9V4h8.5L19 6.5V20z"/>
+                </svg>
+            </a>
+            <a href="/home/index.html" class="nav-item">
+                <!-- Home -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                </svg>
+            </a>
+        </nav>
+    </div>
+    <div id="proj">
+    <section class="main">
+        <h1>Projetos</h1>
+        
+    </section>
+    <div class="pesquisa">
+        <input type="text" class="pesquisa" placeholder="Procurar...">
+        <div class="filtro" >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M3 4c0-.552.447-1 1-1h16c.553 0 1 .448 1 1 0 .263-.104.516-.293.707L14 12.414V20c0 .552-.447 1-1 1s-1-.448-1-1v-7.586l-6.707-6.707C3.104 4.516 3 4.263 3 4z"/>
+            </svg>
+        </div>
+        
+    </div>
+    <table class="tab" id="tab">
+        <thead>
+            <tr>
+                <th>Nome do Projeto</th>
+                <th>Data</th>
+                <th>Orçamento</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="/projeto.html">Projeto 1</a></td>
+                <td>20/06/2023</td>
+                <td>Maior orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 2</a></td>
+                <td>15/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Pendente</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 3</a></td>
+                <td>13/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Pendente</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 4</a></td>
+                <td>11/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Pendente</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 5</a></td>
+                <td>18/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Desaprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 6</a></td>
+                <td>15/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 7</a></td>
+                <td>15/12/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 8</a></td>
+                <td>15/09/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 9</a></td>
+                <td>15/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 10</a></td>
+                <td>19/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Desaprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 11</a></td>
+                <td>17/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 12</a></td>
+                <td>15/08/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 13</a></td>
+                <td>24/09/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Desaprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 14</a></td>
+                <td>15/06/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Pendente</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 15</a></td>
+                <td>15/05/2023</td>
+                <td>Orçamento</td>
+                <td class="status">Desaprovado</td>
+            </tr>
+            <tr>
+                <td><a href="/projeto.html">Projeto 16</a></td>
+                <td>14/05/2023</td>
+                <td> Menor Orçamento</td>
+                <td class="status">Aprovado</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
